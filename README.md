@@ -1,4 +1,4 @@
-# SistemaDeChamados-JC_Ouve
+# Sistema de Chamados - JC_Ouve
 
 ## Sistema de registro e atualização de chamdos - PHP@8.2 | MVC 
 

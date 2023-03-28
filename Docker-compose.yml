@@ -1,0 +1,28 @@
+version: "3"
+services:
+  www:
+    build: 
+      dockerfile: DockerFile
+    restart: always
+    ports:
+      - '80:80'
+    volumes:
+      - ./applications/jcouve/public:/var/www/html 
+    networks:
+      - default 
+  db:
+    image: mysql:8.0.21
+    restart: always
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_DATABASE: jcouve 
+      MYSQL_USER: jcouve 
+      MYSQL_PASSWORD: jcouvepass 
+      MYSQL_ROOT_PASSWORD: jcouvepass
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - default
+volumes:
+  db_data:

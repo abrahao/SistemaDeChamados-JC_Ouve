@@ -18,4 +18,4 @@ $this->layout('template')
 	<button class="btn btn-primary" type="submit">Cadastrar</button>
 </form>
 
-<a href="/admin/home" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Voltar</a>
+<a href="/admin/home">Voltar</a>

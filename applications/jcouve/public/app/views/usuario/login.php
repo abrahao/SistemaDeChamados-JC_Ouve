@@ -13,4 +13,4 @@
     <button type="submit">Entrar</button>
 </form>
 <br>
-<a href="/" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Voltar</a>
+<a href="/" >Voltar</a>

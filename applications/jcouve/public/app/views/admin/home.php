@@ -61,8 +61,9 @@ $this->layout('template')
             <td><?= $status ?></td>
             <td>
                 <form action="" method="post">
-                    <a href="/chamado/deferir_chamado?id=<?= $id ?>&titulo=<?= $titulo ?>&descricao=<?= $descricao ?>&status=<?= $status ?>" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Deferir</a> |
-                    <a href="#" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Indeferir</a>
+                    <!-- <a href="/chamado/deferir_chamado?id=<?= $id ?>&titulo=<?= $titulo ?>&descricao=<?= $descricao ?>&status=<?= $status ?>">Deferir</a> | -->
+                    <a href="#">Deferir</a> | 
+                    <a href="#">Indeferir</a>
                 </form>
             </td>
         </tr>

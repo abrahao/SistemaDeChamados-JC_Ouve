@@ -14,7 +14,6 @@ class AdminDAO
         $password = 'root';
         $this->conexao = new PDO($dsn, $emailname, $password);
     }
-
     public function insert(AdminModel $model)
     {
         $sql = "INSERT INTO cadastro_admin (id, nome, email, senha)

@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use app\model\chamado\ChamadoModel;
-// use app\model\usuario\CadastraChamadoModel;
 class ChamadoController
 {
 

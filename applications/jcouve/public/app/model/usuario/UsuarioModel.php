@@ -30,7 +30,6 @@ class UsuarioModel
      */
     public function save()
     {
-        // include_once 'DAO/UsuarioDAO.php'; // Incluíndo o arquivo DAO
 
         // Instância do objeto e conexão no banco de dados via construtor
         $dao = new UsuarioDAO(); 

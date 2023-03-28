@@ -13,7 +13,6 @@ class AdminModel
 {
     /**
      * Declaração das propriedades conforme campos da tabela no banco de dados.
-     * para saber mais sobre Propriedades de Classe, leia: https://www.php.net/manual/pt_BR/language.oop5.properties.php
      */
     public $id, $nome, $email, $senha;
 
@@ -30,13 +29,10 @@ class AdminModel
      */
     public function save()
     {
-        // include_once 'DAO/AdminDAO.php'; // Incluíndo o arquivo DAO
-
         // Instância do objeto e conexão no banco de dados via construtor
         $dao = new AdminDAO(); 
 
         // Verificando se a propriedade id foi preenchida no model
-        // Para saber mais sobre a palavra-chave this, leia: https://pt.stackoverflow.com/questions/575/quando-usar-self-vs-this-em-php
         if(empty($this->id))
         {
             // Chamando o método insert que recebe o próprio objeto model

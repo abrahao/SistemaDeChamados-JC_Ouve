@@ -1,5 +1,7 @@
 <?php
 
+// Controller default usado para disponibilizar a view padrao da aplicacao
+
 namespace app\controllers;
 
 use League\Plates\Engine;

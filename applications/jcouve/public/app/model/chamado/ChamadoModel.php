@@ -23,9 +23,7 @@ class ChamadoModel
     }
 
     public function getAllRows()
-    {
-        include_once 'DAO/ChamadoDAO.php'; // Incluíndo o arquivo DAO
-        
+    {        
         $dao = new ChamadoDAO();
 
         $this->rows = $dao->select();
